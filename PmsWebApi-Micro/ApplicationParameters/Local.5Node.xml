@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/PmsWebApi_Micro" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="PmsNotificationsApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PmsNotificationsApi_InstanceCount" Value="1" />
+    <Parameter Name="PmsMaintenanceApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PmsMaintenanceApi_InstanceCount" Value="1" />
+    <Parameter Name="PmsRentApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PmsRentApi_InstanceCount" Value="1" />
+    <Parameter Name="PmsTenantApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PmsTenantApi_InstanceCount" Value="1" />
+    <Parameter Name="PmsTenantApi_InstanceCount" Value="1" />
+    <Parameter Name="PmsUserApi_ASPNETCORE_ENVIRONMENT" Value="Development" />
+    <Parameter Name="PmsUserApi_InstanceCount" Value="1" />
+  </Parameters>
+</Application>
